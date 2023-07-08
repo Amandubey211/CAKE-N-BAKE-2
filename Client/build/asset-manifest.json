@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.acb3ff59.css",
+    "main.js": "/static/js/main.04e9b9a9.js",
+    "static/media/cake1.jpg": "/static/media/cake1.961e414aca0a1bbf04bb.jpg",
+    "static/media/About page.jpg": "/static/media/About page.740de6aba93e8e641c5a.jpg",
+    "static/media/cake2.jpg": "/static/media/cake2.7483cc8454144c768df8.jpg",
+    "static/media/cake.jpg": "/static/media/cake.cc943368fa5dd5f6bded.jpg",
+    "static/media/cake3.jpg": "/static/media/cake3.c06a2ea8b0a7225692a4.jpg",
+    "static/media/donut.jpg": "/static/media/donut.1de0f90bb8c468243fd1.jpg",
+    "static/media/About-bg.jpg": "/static/media/About-bg.eddfb21a107f0ded3ae4.jpg",
+    "static/media/toast.jpg": "/static/media/toast.18ffb2f2ff66264c21c9.jpg",
+    "static/media/bread.jpg": "/static/media/bread.4a6f0a5e1c3923ffaf77.jpg",
+    "static/media/Admin.png": "/static/media/Admin.d82e71e2a54e61495fb3.png",
+    "static/media/cake-n-bake logo.png": "/static/media/cake-n-bake logo.2bfb28e2375f45b7f7a0.png",
+    "static/media/emptycartbanner.jpg": "/static/media/emptycartbanner.00260a2080e416c2f1ea.jpg",
+    "index.html": "/index.html",
+    "main.acb3ff59.css.map": "/static/css/main.acb3ff59.css.map",
+    "main.04e9b9a9.js.map": "/static/js/main.04e9b9a9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.acb3ff59.css",
+    "static/js/main.04e9b9a9.js"
+  ]
+}
