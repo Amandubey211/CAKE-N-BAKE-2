@@ -10,16 +10,35 @@ export const feedbackController = async (req, res) => {
       email: email,
       message: message,
       userId: id,
-    })
-    await feedback.save()
+    });
+    await feedback.save();
+    res.status(200).send({
+      success: true,
+      message: " THANK YOU! FOR YOUR Feedback ",
+      feedback,
+    });
+  } catch (error) {
+    console.log(error);
+  }
+};
+export const getAllFeedbackController = async (req, res) => {
+  try {
+    const feedbacks = await FeedBackModel.find();
+    if (!feedbacks) {
+      return res.status(500).send({
+        success: false,
+        message: "Can't access the data at the moment ",
+      });
+    }
     res
       .status(200)
       .send({
         success: true,
-        message: " THANK YOU! FOR YOUR Feedback ",
-        feedback,
+        message: " feedbacks accquired successfull",
+        feedbacks,
       });
   } catch (error) {
     console.log(error);
+    res.status(500).send(error.message);
   }
 };
