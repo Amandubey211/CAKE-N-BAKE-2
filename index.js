@@ -3,7 +3,7 @@ import morgan from "morgan";
 import cors from "cors";
 import { config } from "dotenv";
 import path from "path"
-import {fileURLToPath} from "url";
+
 import authRouter from "./Routes/authRoute.js";
 import ProductRouter from "./Routes/productRoute.js";
 import CategoryRouter from "./Routes/categoryRoute.js";
