@@ -7,7 +7,7 @@ import path from "path"
 import authRouter from "./Routes/authRoute.js";
 import ProductRouter from "./Routes/productRoute.js";
 import CategoryRouter from "./Routes/categoryRoute.js";
-
+import { fileURLToPath } from "url";
 import DBconnect from "./DB.js";
 import feedbackRouter from "./Routes/feedbackRoute.js";
 const app = express();
@@ -16,8 +16,7 @@ config({ path: "./config/config.env" });
 
 //database connection
 DBconnect();
-//database connection
-DBconnect();
+
 
 //middlewares
 //esmodule fix
