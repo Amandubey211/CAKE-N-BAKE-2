@@ -17,10 +17,7 @@ config({ path: "./config/config.env" });
 
 //database connection
 DBconnect();
-<<<<<<< HEAD
-=======
 
->>>>>>> a645d908732ba6b2eb02792831cacb00d6957e3a
 
 //middlewares
 //esmodule fix
